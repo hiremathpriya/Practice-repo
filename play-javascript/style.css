@@ -1,7 +1,14 @@
 body{
-  background-color: pink;
+  background-color:pink;
+
+
   text-align: center;
 }
+#Clock{
+  background-color:black;
+}
+}
+
 h2{
   display:inline;
 }

@@ -6,7 +6,7 @@ var count = parseInt($("#num").html());
 var breakTime = parseInt($("#breakNum").html());
 
 $("#reset").hide();
-//document.getElementById('reset').hide();
+
 
 $("#start").click(function() {
   var counter = setInterval(timer, 1000);
