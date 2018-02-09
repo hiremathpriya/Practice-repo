@@ -1,0 +1,10 @@
+body{
+  background-color: pink;
+  text-align: center;
+}
+h2{
+  display:inline;
+}
+#start{
+  margin:10px;
+}
