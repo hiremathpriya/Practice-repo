@@ -1,0 +1,21 @@
+<html>
+    <head>
+
+            <script>
+
+                    function sendRequest() {
+                        console.log('function invoked');
+
+                        const xhttp = new XMLHttpRequest();
+                        xhttp.open("GET", "http://localhost:3000/", false);
+                        xhttp.send();
+                    }
+             </script>
+        
+    </head>
+    <body>
+
+
+        <button onclick="sendRequest()">Send Request</button>
+    </body>
+</html>

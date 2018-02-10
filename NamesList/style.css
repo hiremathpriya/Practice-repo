@@ -1,0 +1,20 @@
+body {
+background-color: aqua;
+}
+#detailsDiv{
+    box-sizing: border-box;
+
+    border: 4px solid grey;
+    margin: 10px;
+    padding: 10px;
+}
+#nameList{
+    border:
+    display: block;
+    background-origin: padding-box; 
+    border: cornsilk;
+    margin: 10px;
+    padding:10px;
+    height: 300px;
+    width: 300px;
+}

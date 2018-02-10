@@ -1,0 +1,39 @@
+<html>
+<head>
+
+    <script>
+        
+        orderPizza = () => {
+
+            const topping = document.getElementById('topping').value;            
+            const base = document.getElementById('base').value;
+
+            document.getElementById('displayDiv').innerText += "Topping :" + topping + " and Base :" + base + "\n";
+
+            document.getElementById('topping').value = '';
+            document.getElementById('base').value = '';
+        }    
+    </script>
+
+</head>
+<body>
+
+<div id="orderDiv">
+    <h1>Order your pizza here</h1>
+
+    Pizza topping <input type="text" id="topping">
+    Pizza base <input type="text" id="base">
+
+    <button onclick="orderPizza()">Order</button>
+
+</div>    
+
+<div>
+
+    <h2>Orders received</h2>
+    <div id="displayDiv"></div>
+
+</div>
+    
+</body>
+</html>
