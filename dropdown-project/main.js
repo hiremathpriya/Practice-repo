@@ -1,11 +1,12 @@
-const dropDown = ()=> {
+const getText = ()=> {
     
     
   
- document.getElementById("display1") 
+    var display =  document.getElementById("display1").textContent += 
 document.getElementById("myName").value
     console.log(myName.value);
-document.getElementById("classId").value
+    document.getElementById("display1").textContent += 
+document.getElementById("classId").value  
 console.log(classId.value);
 console.log("am I working");
 
