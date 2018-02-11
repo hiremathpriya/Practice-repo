@@ -1,0 +1,26 @@
+#display1 {
+    display: inline-block;
+   /* border: 5px solid black;*/
+    margin: 12px;
+    padding:12px;
+}
+#display2 {
+    display:inline-block;
+/*border: 5px solid black;*/
+margin: 12px;
+padding:12px;
+}
+#display3 {
+    display:inline-block;
+    /*border: 5px solid black;*/
+    margin: 12px;
+    padding:12px;
+}
+Body{
+    background-color: aqua;
+}
+#dropdown{
+    margin:20px;
+    padding:10px;
+    border:4 px;
+}
