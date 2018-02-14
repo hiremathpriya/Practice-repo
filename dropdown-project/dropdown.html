@@ -6,7 +6,7 @@
     <title>Dropdown-project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css" />
-    <script src="main.js"></script>
+    
 </head>
 <body>
     <div id="dropdown">
@@ -15,15 +15,42 @@
         <label>Name:</label>
         <input id="myName" type="text">
 
-        <select id="classId" onclick="getText()">
+        <select id="classId">
             <option value="C1">C1</option>
             <option value="C2">C2</option>
             <option value="C3">C3</option>
         </select>
+
+        <button onclick="getText()">Add Student to Class</button>
     </div>
 
-    <div id="display1"></div>
+    <div class="class">
+        <span class="className">Class C1</span>
+        <div id="c1">
 
-    
+        </div>
+    </div>
+
+    <div class="class">
+        <span class="className">Class C2</span>
+        <div id="c2">
+
+        </div>
+    </div>
+
+    <div class="class">
+        <span class="className">Class C3</span>
+        <div id="c3">
+            
+        </div>
+    </div>
+    <div><p>There are two different ways to access an object property:</p>
+        <p>You can use person.property or person["property"]</p>
+
+            <p id="Demo"></p>
+
+        </div>
+
+    <script src="main.js"></script>
 </body>
 </html>

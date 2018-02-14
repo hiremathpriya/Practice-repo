@@ -4,3 +4,4 @@ const myFunction = ()=> {
     x.style.color = "blue";
 
 }
+document.write("Hello World!");

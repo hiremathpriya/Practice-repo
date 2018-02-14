@@ -2,11 +2,15 @@ const http = require('http');
 const url = require('url');
 const jsonDB = require('node-json-db');
 
+const logger = require('./logger');
+
 const db = new jsonDB("messages", true, true);
 
 const server = http.createServer(function(req, res){
 
     console.log('serving request :' + req.url);
+
+    logger.info('service request logged by winston :' + req.url);
 
     res.setHeader('Access-Control-Allow-Origin', 'http://localhost:8080');
 
